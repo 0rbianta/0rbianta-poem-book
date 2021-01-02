@@ -72,6 +72,11 @@ public class MainActivity extends AppCompatActivity {
         back_click(R.id.poem_view);
     }
 
+    @Override
+    public void onBackPressed() {
+        back_click(R.id.poem_view);  
+    }
+    
     public void setVisibility(View v,int i){
         v.setVisibility((int)i);
     }
